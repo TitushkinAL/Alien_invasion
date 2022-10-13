@@ -25,6 +25,7 @@
     <Compile Include="Alien_invasion.py" />
     <Compile Include="settings.py" />
     <Compile Include="ship.py" />
+    <Compile Include="game_functions.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
