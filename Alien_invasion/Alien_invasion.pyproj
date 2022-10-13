@@ -26,6 +26,7 @@
     <Compile Include="settings.py" />
     <Compile Include="ship.py" />
     <Compile Include="game_functions.py" />
+    <Compile Include="bullet.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
