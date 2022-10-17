@@ -1,22 +1,20 @@
-class Settings():
-    #class for all settings of game
+
+class Settings:
+    # class for all settings of game
 
     def __init__(self):
-        #initilize game settings
+        # initilize game settings
 
-        #Screen parameters
+        # Screen parameters
         self.screen_width = 1200
         self.screen_height = 800
-        self.bg_color = (230,230,230)
-    
-        #ship settings
+        self.bg_color = (230, 230, 230)
+
+        # ship settings
         self.ship_speed_factor = 1.5
 
-        #bullet parameters
+        # bullet parameters
         self.bullet_speed_factor = 1
         self.bullet_width = 3
         self.bullet_height = 15
-        self.bullet_collor = 60,60,600
-
-
-
+        self.bullet_color = 60, 60, 60
